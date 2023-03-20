@@ -1,7 +1,7 @@
 h1{
     font-size: 3em;
 }
-.LeftSide{
+.leftSide{
 float: left;
 width: 25%;
 height: 100%;
@@ -9,7 +9,7 @@ height: 100%;
 
 
 }
-.RightSide{
+.rightSide{
    padding: 20px;
     float: right;
     width: 75%;
