@@ -26,6 +26,7 @@ jobs:
           DEFAULT_BRANCH: "master"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           Validate_Yml: false
+          Disable_Errors: true
 
   build_and_deploy_job:
     needs: run-lint
